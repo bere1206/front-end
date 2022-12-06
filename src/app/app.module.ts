@@ -13,6 +13,7 @@ import { MenuComponent } from "./menu/menu.component";
 import { HttpClientModule } from "@angular/common/http";
 import { Routes, RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { CarritoComponent } from './carrito/carrito.component';
 
 
 
@@ -28,7 +29,7 @@ export class UsersService {
 }
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, StockComponent, UsersComponent, MenuComponent],
+  declarations: [AppComponent, LoginComponent, StockComponent, UsersComponent, MenuComponent, CarritoComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent]
